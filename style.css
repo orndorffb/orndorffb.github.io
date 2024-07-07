@@ -1,0 +1,87 @@
+/* Resetting default margin and padding */
+body, h1, p, footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+  color: hotpink;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* List container styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto; /* Auto margins horizontally center the list */
+    max-width: 600px; /* Optional: Set a maximum width for the list */
+}
+
+/* List item styles */
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Link styles */
+ul li a {
+    display: block;
+    padding: 10px;
+    color: #007bff; /* Subtle blue color */
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+    text-align: center; /* Center the text within each link */
+    border-radius: 5px;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Hover effect */
+ul li a:hover {
+    background-color: #007bff; /* Vibrant blue background on hover */
+    color: #fff; /* White text on hover */
+}
+
